@@ -111,6 +111,18 @@ var x = setInterval(function() {
   }
 }, 1000);
 </script>
+	<script>
+
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("dem").innerHTML = x;
+}
+</script>
+<audio id="myAudio"  controls hidden="" autoplay="" loop="">
+  <source src="sound.mp3" type="audio/mpeg">
+  
+</audio>
+<p id="dem"></p>
 
 </body>
 </html>
